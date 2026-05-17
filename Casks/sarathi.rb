@@ -1,11 +1,11 @@
 cask "sarathi" do
-  version "0.0.2"
-  sha256 "3d31539bfda632a6e017f2d7ffc1bfea33f092cf51adaf2eca2ee9e87cc1b66b"
+  version "0.0.3"
+  sha256 "3cbae7702f449b271d3ab8597bddec240937a8a7bfb20b8f4b491248b0593f57"
 
   url "https://github.com/k161196/homebrew-sarathi/releases/download/v#{version}/Sarathi-#{version}.zip"
   name "Sarathi"
   desc "Daily planner — time blocks, tasks, logs, brain dump"
-  homepage "https://github.com/k161196/meops"
+  homepage "https://github.com/k161196/homebrew-sarathi"
 
   app "Sarathi.app"
 
