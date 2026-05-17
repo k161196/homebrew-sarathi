@@ -1,6 +1,6 @@
 cask "sarathi" do
-  version "1.0.0"
-  sha256 "REPLACE_WITH_SHA256_FROM_BUILD_SCRIPT"
+  version "0.0.1"
+  sha256 "2ea94d54b89665839f2579222cff4775462303a50c7de0d2aa02f8fd6cce4c6b"
 
   url "https://github.com/k161196/meops/releases/download/v#{version}/Sarathi-#{version}.zip"
   name "Sarathi"
