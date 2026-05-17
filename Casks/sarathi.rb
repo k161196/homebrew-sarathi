@@ -17,7 +17,9 @@ cask "sarathi" do
   end
 
   uninstall quit: "com.kiran.Sarathi"
-  zap trash: "~/Library/Application Support/cloud.store",
-          "~/Library/Application Support/local.store",
-          "~/Library/Preferences/com.kiran.Sarathi.plist"
+  zap trash: [
+    "~/Library/Application Support/cloud.store",
+    "~/Library/Application Support/local.store",
+    "~/Library/Preferences/com.kiran.Sarathi.plist",
+  ]
 end
