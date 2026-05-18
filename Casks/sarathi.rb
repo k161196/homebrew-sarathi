@@ -1,6 +1,6 @@
 cask "sarathi" do
-  version "0.0.3"
-  sha256 "3cbae7702f449b271d3ab8597bddec240937a8a7bfb20b8f4b491248b0593f57"
+  version "0.0.4"
+  sha256 "3f0190864295e6176a2c977c90db3f6708f4d439aea0a8d65641eebffadff8e2"
 
   url "https://github.com/k161196/homebrew-sarathi/releases/download/v#{version}/Sarathi-#{version}.zip"
   name "Sarathi"
